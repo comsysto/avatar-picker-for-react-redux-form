@@ -23,11 +23,11 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
 
   * Best is your project uses the **[essential-react](https://github.com/pheuter/essential-react)** buildchain then you can easily use the components provided here.
   * You will need pute these three Components somewhere in your Application
-    * **[AvatarHelper.js]()
-    * **[AvatarPicker.css]()
-    * **[AvatarPicker.jsx]()
-  * Then you can use the Avatar Picker like this
-
+    * **[AvatarHelper.js](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarHelper.js)**
+    * **[AvatarPicker.css](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarPicker.css)**
+    * **[AvatarPicker.jsx](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarPicker.jsx)
+  * Then you **can use the Avatar Picker like this**
+    * (have a look at [ProfileForm.jsx](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/ProfileForm.jsx))
 ```
 import React, { Component, PropTypes } from 'react'
 import { reduxForm } from 'redux-form'
@@ -40,17 +40,12 @@ class SomeForm extends Component {
         var { fields: { avatar, username }, resetForm, handleSubmit, submitting } = this.props
         return (
             <form onSubmit={handleSubmit}>
-				<input type="text" placeholder="Username" {...username}/> <br/>
+                <input type="text" placeholder="Username" {...username}/> <br/>
                 <AvatarPicker {...avatar} />
 			</form>
 		)
 	}
 }
 // redux form mapPropsToState here ...
-...
-
-
-  
-  
-
+```
 
