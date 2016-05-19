@@ -1,0 +1,109 @@
+/*
+ * BUTTON STYLING
+ */
+
+
+/* STYLES */
+
+.primary, .secondary {
+    border:1px solid #2281C4;
+    border-radius: 0px;
+    background-color:#fff;
+    color:#2281C4;
+    padding:5px;
+    margin-right:8px;
+    box-shadow: 0 3px #2281C4;
+}
+.primary:before, .secondary:before {
+    content: "\f090";
+    display: inline-block;
+    left: 3px;
+    top: 3px;
+    height: 20px;
+    width: 20px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.primary:active {
+    box-shadow: 0 1px #2281C4;
+}
+.primary[disabled], .secondary[disabled] {
+    color:#464445;
+    border-color:#464445;
+    cursor: not-allowed;
+    background-color: #e5e5e5;
+}
+
+.secondary {
+    border-color: #6d6d6d;
+    background-color:#fff;
+    color:#6d6d6d;
+    box-shadow: 0 3px #6d6d6d;
+}
+.secondary:active {
+    box-shadow: 0 1px #6d6d6d;
+}
+
+/* MODIFIER */
+.ico_clear:before {
+    content: "\f12d";
+}
+
+.ico_login:before {
+    content: "\f090";
+}
+.ico_login[disabled]:before {
+    content: "\f1ce";
+    -webkit-animation: spin 2s infinite linear;
+}
+.ico_login[disabled] {
+    color: #FF4500;
+    border-color: #FF4500;
+    box-shadow: 0 3px #FF4500;
+}
+
+.ico_logout:before {
+    content: "\f08b";
+}
+
+.ico_edit:before {
+    content: "\f040";
+}
+
+
+
+/* ANIMATIONS */
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+/*
+ * INPUT STYLING
+ */
+
+
+.inputNoRadius {
+    border-radius:0;
+}
+
+
+/*
+ * HREFS
+ */
+
+.pointer {
+    cursor: pointer;
+}
