@@ -26,6 +26,7 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
     * **[AvatarHelper.js](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarHelper.js)**
     * **[AvatarPicker.css](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarPicker.css)**
     * **[AvatarPicker.jsx](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/AvatarPicker.jsx)**
+    * adjust them to your needs (and link the AvatarHelper to your avatar images)
   * Then you **can use the Avatar Picker like this**
     * (have a look at [ProfileForm.jsx](https://github.com/comsysto/avatar-picker-for-react-redux-form/blob/gh-pages/js/components/ProfileForm.jsx))
 
