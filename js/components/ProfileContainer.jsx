@@ -5,7 +5,7 @@ import alertify from 'alertify.js';
 import AvatarHelper from './AvatarHelper';
 import Profile from './Profile';
 import ProfileForm from './ProfileForm';
-import buttonStyles from './Buttons'
+import buttonStyles from './Buttons.css'
 
 export default class ProfileContainer extends Component {
 
