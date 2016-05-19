@@ -6,7 +6,13 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
 
 [![](https://comsysto.github.io/avatar-picker-for-react-redux-form/img/demo-button.svg)](https://comsysto.github.io/avatar-picker-for-react-redux-form/)
 
+----
+
 <br><br><br>
+
+#### Preview
+
+[![](https://comsysto.github.io/avatar-picker-for-react-redux-form/img/preview-avatar-picker.gif)](https://comsysto.github.io/avatar-picker-for-react-redux-form/)
 
 ----
 
@@ -14,4 +20,6 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
 
 #### License
 
-Licensed under the [MIT License](./LICENSE.md)
+  * Code Licensed under the [MIT License](./LICENSE.md)
+  * [Funny animals collection Free Vector By freepik](http://www.freepik.com/free-vector/funny-animals-collection_765907.htm)
+
