@@ -47,19 +47,21 @@ export default class ProfileContainer extends Component {
         var toggleEditButton;
         var profile;
         if (!this.state.toggleEdit) {
-            toggleEditButton = <button onClick={this.toggleProfileEdit} className={classNames(buttonStyles.primary, buttonStyles.ico_edit)}>edit profile</button>;
+            toggleEditButton = <button onClick={this.toggleProfileEdit} className={classNames(buttonStyles.primary, buttonStyles.ico_edit)}>Edit Profile</button>;
             profile = <Profile profileData={this.state.profileData}  />
         } else {
-            toggleEditButton = <button onClick={this.toggleProfileEdit} className={classNames(buttonStyles.secondary, buttonStyles.ico_clear)}>cancel edit</button>;
+            toggleEditButton = <button onClick={this.toggleProfileEdit} className={classNames(buttonStyles.secondary, buttonStyles.ico_clear)}>Cancel Edit</button>;
             console.log('initialState:', formInitialValues);
             profile = <ProfileForm {...formInitialValues} onSubmit={this.handleProfileEditSubmit} parentSubmitting={false} />
         }
         return (
-            <div>
-                {toggleEditButton}
-                <hr/>
-                {profile}
-
+            <div className="row">
+                <div className="col-md-8">
+                    {profile}
+                </div>
+                <div className="col-md-4">
+                    {toggleEditButton}
+                </div>
             </div>
         );
     }

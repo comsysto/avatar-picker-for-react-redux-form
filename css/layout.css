@@ -1,7 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+a {
+    color:#1D9CCB;
+}
+a:hover {
+    color: #1c89b6;
+}
 .cs-footer {
     margin-top:100px;
     color:#fff;
@@ -23,4 +28,17 @@ body {
     background-color: #1D9CCB;
     padding-bottom:30px;
     padding-top:30px;
+}
+
+.cs-sub-header {
+    padding-bottom:30px;
+    padding-top:30px;
+}
+
+.cs-sub-header a {
+    font-size:20px;
+}
+
+.cs-teaser {
+    font-size:20px;
 }

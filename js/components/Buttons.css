@@ -6,13 +6,13 @@
 /* STYLES */
 
 .primary, .secondary {
-    border:1px solid #2281C4;
+    border:1px solid #1D9CCB;
     border-radius: 0px;
     background-color:#fff;
-    color:#2281C4;
+    color:#1D9CCB;
     padding:5px;
     margin-right:8px;
-    box-shadow: 0 3px #2281C4;
+    box-shadow: 0 3px #1D9CCB;
 }
 .primary:before, .secondary:before {
     content: "\f090";
@@ -27,7 +27,7 @@
     -webkit-font-smoothing: antialiased;
 }
 .primary:active {
-    box-shadow: 0 1px #2281C4;
+    box-shadow: 0 1px #1D9CCB;
 }
 .primary[disabled], .secondary[disabled] {
     color:#464445;
