@@ -8,15 +8,11 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
 
 ----
 
-<br><br><br>
-
 #### Preview
 
 [![](https://comsysto.github.io/avatar-picker-for-react-redux-form/img/preview-avatar-picker.gif)](https://comsysto.github.io/avatar-picker-for-react-redux-form/)
 
 ----
-
-<br><br><br>
 
 #### License
 
