@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cs-footer {
+    padding-top:200px;
+    color:#ccc;
+}
+
+.cs-footer a {
+    color:#ccc;
+}
+
+.cs-footer a:hover {
+    color:#ccc;
+}
+
+.cs-header {
+    background-color: #1D9CCB;
+    padding-bottom:30px;
+    padding-top:30px;
+}
