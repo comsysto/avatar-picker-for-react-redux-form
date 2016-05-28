@@ -8,7 +8,7 @@ export default class AvatarHelper {
 
   avatarUrlKey(avatarKey) {
     if (avatarKey === undefined || avatarKey === null || avatarKey === '') {
-      return `${avatarBaseUrl}default.png`;
+     return `${avatarBaseUrl}default.png`;
     }
     return `${avatarBaseUrl}${avatarKey}.png`;
   }
