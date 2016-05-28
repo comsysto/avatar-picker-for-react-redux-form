@@ -5,7 +5,8 @@
   "main": "js/main.js",
   "scripts": {
     "build": "webpack -p --progress --config webpack.production.config.js",
-    "clean": "rm generated/app.js"
+    "clean": "rm generated/app.js",
+    "eslint": "./node_modules/.bin/eslint js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,11 @@
     "coveralls": "^2.11.2",
     "css-loader": "^0.18.0",
     "enzyme": "^2.0.0",
+    "eslint": "^2.11.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.2",
+    "eslint-plugin-react": "^5.1.1",
     "extract-text-webpack-plugin": "^0.8.2",
     "file-loader": "^0.8.5",
     "nyc": "^5.6.0",
