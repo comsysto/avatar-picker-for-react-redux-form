@@ -14,11 +14,6 @@ You can see a **[demo of the Avatar Picker](https://comsysto.github.io/avatar-pi
 
 ----
 
-#### License
-
-  * Code Licensed under the [MIT License](./LICENSE.md)
-  * [Funny animals collection Free Vector By freepik](http://www.freepik.com/free-vector/funny-animals-collection_765907.htm)
-
 #### Howto use
 
   * Best is your project uses the **[essential-react](https://github.com/pheuter/essential-react)** buildchain then you can easily use the components provided here.
@@ -50,4 +45,15 @@ class SomeForm extends Component {
 }
 // redux form mapPropsToState here ...
 ```
+----
+
+&nbsp;
+
+### License
+
+[MIT](./LICENSE) © [Bernhard Grünewaldt](https://github.com/clouless)
+
+&nbsp;
+
+[Funny animals collection Free Vector By freepik](http://www.freepik.com/free-vector/funny-animals-collection_765907.htm)
 
